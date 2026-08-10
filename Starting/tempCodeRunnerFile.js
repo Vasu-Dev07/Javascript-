@@ -1,6 +1,4 @@
-console.log(null==undefined);
-console.log(null===undefined);
-console.log(null==0);
-console.log(null=="");
-console.log(null==false);
-console.log(null==true);
+console.log(true||true);
+// console.log(true||false);
+// console.log(false||false);
+// console.log(false||true);
