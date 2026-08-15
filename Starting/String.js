@@ -6,7 +6,7 @@
 
 // console.log(str3);
 
-// const str = `Hello Coder Army`;
+// const str = `Hello Vasu`;
 
 // console.log(str.length)
 // console.log(str[1]);
@@ -19,33 +19,34 @@
 // const b = str.toLowerCase();
 // console.log(b);
 
-// const str = `Hello Coder Army Coder`;
+//  const str = `Hello Vasu`;
 
-// console.log(str.indexOf('Cod'));
-// console.log(str.lastIndexOf('Cod'));
-// console.log(str.includes('cod'));
+// console.log(str.indexOf('as'));
+// console.log(str.lastIndexOf('as'));
+// console.log(str.includes('as'));
 
-// slice 
+// // slice 
 // console.log(str.slice(2,7));
 // console.log(str.slice(3));
 // console.log(str.slice(-5,-2));
 
-// const str = `Hello Coder Army Coder`;
+
+// const str = `Hello Vasu`
 
 // console.log(str.substring(2,5));
 
-// const a = "Rohit";
-// const b = "Negi";
+// const a = "Vasu";
+// const b = "Dev";
 // const c = a+" "+b;
 // console.log(c);
 
-// console.log(24+"Rohit");
-// console.log(24+"Rohit"+10);
-// console.log(24+30+"Rohit");
+// console.log(24+"Vasu");
+// console.log(24+"Vasu"+10);
+// console.log(24+30+"Vasu");
 
-// const str = `Hello Coder Army Coder`;
+// const str = `Hello there Vasu`;
 
-// console.log(str.replaceAll("ode",'iam'));
+// console.log(str.replaceAll("s",'n'));
 
 // const user = "  Rohit  Negi ";
 // console.log(user.trim());
@@ -82,11 +83,10 @@
 
 
 // Timestamp
-const now = Date.now();
-const dates = new Date(1759275037293);
+// const now = Date.now();
+// const dates = new Date(1759275037293);
 // console.log(dates.toString());
 
-console.log(dates);
-console.log(now);
+// console.log(dates);
+// console.log(now);
 // 1759272851288: TimeStamp
-
