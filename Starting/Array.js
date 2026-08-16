@@ -88,3 +88,17 @@ console.log(arr);
 
 // const arr3= [...arr,...arr2,...arr4];
 // console.log(arr3);
+// console.log(arr3);
+
+
+// const names = ["Alice", "Rohit","Bob","Mohit", "Charlie",];
+
+// console.log(names.toString());
+// console.log(names.join("-"));
+// console.log(names.lastIndexOf("Bob"));
+// console.log(names.includes("Bobs"));
+
+// names.sort();
+// names.reverse();
+
+// console.log(names);
