@@ -127,3 +127,14 @@
 // +ve: b aayega fr a aayge
 
 // console.log(arr);
+
+// const arr = [10,30,50,[40,90,[60,19,99],11], 80];
+
+// const a = arr.flat(Infinity);
+// console.log(a);
+// console.log(arr[3][2][1]);
+
+
+const a = [10,309,"Rohit",9.3, true];
+a.name = "Moahn";
+console.log(a);
