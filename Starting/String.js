@@ -56,21 +56,21 @@
 // console.log(names.split(" "))
 // console.log(names.split(","))
 
-// const now = new Date();
+const wow = new Date();
 
-// console.log(now);
-// console.log(now.toString());
-// console.log(now.toISOString());
-// console.log(now.toLocaleString());
+console.log(wow);
+console.log(wow.toString());
+console.log(wow.toISOString());
+console.log(wow.toLocaleString());
 
 
 // Local time chal rha
-// console.log(now.getDay());
-// console.log(now.getDate());
-// console.log(now.getFullYear());
-// console.log(now.getMonth());
-// console.log(now.getHours());
-// console.log(now.getSeconds());
+console.log(wow.getDay());
+console.log(wow.getDate());
+console.log(wow.getFullYear());
+console.log(wow.getMonth());
+console.log(wow.getHours());
+console.log(wow.getSeconds());
 
 
 // days: Mon-tue(1 based)
@@ -83,10 +83,10 @@
 
 
 // Timestamp
-// const now = Date.now();
-// const dates = new Date(1759275037293);
-// console.log(dates.toString());
+const now = Date.now();
+const dates = new Date(1759275037293);
+console.log(dates.toString());
 
-// console.log(dates);
-// console.log(now);
+console.log(dates);
+console.log(now);
 // 1759272851288: TimeStamp
