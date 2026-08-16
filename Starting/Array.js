@@ -5,14 +5,14 @@
 // let marks3 = 70;
 // let marks4 = 80;
 
-let marks = [100,50,70,80,90];
+// let marks = [100,50,70,80,90];
 
 
 
-console.log(marks);
-console.log(marks.length);
+// console.log(marks);
+// console.log(marks.length);
 
-let arr = [100,30,"Rohit",true];
+// let arr = [100,30,"Rohit",true];
 
 // console.log(arr[2]);
 // console.log(typeof arr);
@@ -22,14 +22,14 @@ let arr = [100,30,"Rohit",true];
 
 // push : Insert element at end
 
-arr.push(90);
-arr.push("Strike");
+// arr.push(90);
+// arr.push("Strike");
 
-console.log(arr);
+// console.log(arr);
 
 // pop operation: Delete element from end
-arr.pop();
-console.log(arr);
+// arr.pop();
+// console.log(arr);
 
 // Starting add kar sakta hu, delete the element at first place
 
@@ -102,3 +102,28 @@ console.log(arr);
 // names.reverse();
 
 // console.log(names);
+
+// const a = ["101","90","80","32","91"];
+// const arr = [10,"Rohit","Mohan",true];
+
+// arr.sort();
+// console.log(arr);
+
+// const arr = [10,40,31,71,5,11];
+
+// arr.sort((a,b)=> a-b);
+// // ascending order
+
+// arr.sort((a,b)=> b-a);
+
+// 40,10
+// a = 10
+// b = 40
+// 10,31, 40
+// a = 10
+// b = 31
+
+// -ve : pehle a aayega fr aayega
+// +ve: b aayega fr a aayge
+
+// console.log(arr);
