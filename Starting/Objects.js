@@ -28,3 +28,27 @@ console.log(user);
 // delete
 delete user.emailId;
 console.log(user);
+
+const user = {
+   name: "Rohit",
+   age: 20,
+   emailId: "negi@gmail.com",
+   amount: 3400,
+}
+
+const user2 = user;
+user2.age = 90;
+
+console.log(user);
+
+Important
+
+console.log(Object.keys(user));
+console.log(Object.values(user));
+console.log(Object.entries(user));
+
+for(let keys in user){
+    console.log(keys, user[keys]);
+}
+
+user.keys user["name"] user["age"]
