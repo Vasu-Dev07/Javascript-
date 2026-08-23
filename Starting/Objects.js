@@ -116,3 +116,25 @@ user.greeting();
 // user2.greeting();
 // const va = user.greeting();
 // console.log(va);
+
+// nested object
+
+// const user = {
+//    name: "Rohit",
+//    age: 20,
+//    emailId: "negi@gmail.com",
+//    amount: 3400,
+//    address: {
+//     city:"kotdwar",
+//     state:"Uttarkhand"
+//    }
+// }
+
+// shallow copy
+// const user2 = {...user};
+// user2.name = "Mohan";
+// user2.address.city = "Dwarka";
+
+// console.log(user2);
+
+// console.log(user.address.city);
