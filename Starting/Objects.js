@@ -97,9 +97,22 @@ const user = {
    emailId: "vasu@gmail.com",
    amount: 3400,
    greeting: function(){
-    console.log(`Hello There WassUppp  ${this.name}`);
-    return 20;
+    console.log(`Hello There WassUppp ${this.name}`);
    }
 }
-
 user.greeting();
+
+// const user2 = {
+//     name:"Mohan",
+//     account:201,
+//      greeting: function(){
+//     console.log(`Strike is coming on 18 october ${this.name}`);
+//     return 20;
+//    }
+// }
+
+// user2.greeting = user.greeting;
+
+// user2.greeting();
+// const va = user.greeting();
+// console.log(va);
