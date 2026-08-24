@@ -138,3 +138,20 @@ user.greeting();
 // console.log(user2);
 
 // console.log(user.address.city);
+
+// deep copy
+
+// const user2 = structuredClone(user);
+// user2.address.city = "Dwarka";
+// console.log(user);
+// keY; String || Symbol
+
+// const sym = Symbol("id");
+
+// const user = {
+//     name:"Rohit",
+//     age:20,
+//     0: 100,
+//     2: "Mohan",
+//     [sym]:"Hello Ji"
+// }
