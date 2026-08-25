@@ -14,3 +14,16 @@
 
 // greeting();
 // addNumber(3,4);
+
+// rest operator
+// function addNumber(...num){
+   
+//     let sum=0;
+
+//     for(let n of num){
+//         sum+=n;
+//     }
+
+//     console.log(sum);
+    
+// }
