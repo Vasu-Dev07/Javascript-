@@ -27,3 +27,30 @@
 //     console.log(sum);
     
 // }
+
+// addNumber(6,7);
+// addNumber(6,7,8);
+// addNumber(6,7,8,9);
+// addNumber(7,8,12,12,11,12,41,12)
+
+// console.log(greeting());
+
+
+// const arr = [10,20,30,40,50];
+// const arr2 = [30,70,90,10]
+
+// const [first,second, ...num] = arr;
+// console.log(first,second, num);
+
+// const ans = [arr,arr2];
+// console.log(ans);
+
+
+
+// function: expression
+
+// console.log(addNumber(3,4));
+
+// function addNumber(num1,num2){
+//     return num1+num2;
+// }
