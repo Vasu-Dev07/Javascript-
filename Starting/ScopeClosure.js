@@ -132,3 +132,17 @@
 
 // const customer = createBankAccount();
 // console.log(customer.withdraw(200));
+
+// Higher order function
+
+
+function double(value){
+    // we need to make sure we lock value here;
+    return function execute(num){
+        return num*value;
+    }
+    
+}
+var a = 20;
+const n = double(a)(5);
+console.log(n);
