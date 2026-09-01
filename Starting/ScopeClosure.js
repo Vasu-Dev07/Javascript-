@@ -43,3 +43,53 @@
 // }
 
 // greet();
+
+// function createCounter(){
+    
+//     let count = 0;
+//     function increment(){
+//         count++;
+//         return count;
+//     }
+
+//     return increment;
+// }
+
+// // console.log(count);
+
+// const counter = createCounter();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+
+
+// let balance = 500;
+
+
+
+
+// // // balance+="Rohit";
+// // balance-=500;
+// // console.log(balance);
+
+// let balance = 500;
+// // private
+
+// let user = {
+//     deposit: function(amount){
+//         if(typeof amount==="number" && amount>0){
+//         balance+=amount;
+//         return balance;
+//         }
+//     },
+//     withdraw: function(amount){
+//         if(typeof amount==="number" && amount>0 && balance>=amount){
+//         balance-=amount;
+//         return balance;
+//         }
+//     },
+//     getBalance: function(){
+//         return balance;
+//     }
+    
+// }
