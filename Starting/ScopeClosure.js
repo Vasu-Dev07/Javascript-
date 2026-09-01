@@ -93,3 +93,42 @@
 //     }
     
 // }
+
+// balance="Rohit"
+
+// user.balance="Rohit";
+// console.log(user.getBalance());
+// console.log(user.deposit("2sa00"));
+// console.log(user.deposit(500));
+
+// method ko access(function)
+// balance: usko directly access na
+
+
+// function createBankAccount(){
+
+//     let balance = 500;
+    
+//     return {
+//     deposit: function(amount){
+//         if(typeof amount==="number" && amount>0){
+//         balance+=amount;
+//         return balance;
+//         }
+//     },
+//     withdraw: function(amount){
+//         if(typeof amount==="number" && amount>0 && balance>=amount){
+//         balance-=amount;
+//         return balance;
+//         }
+//     },
+//     getBalance: function(){
+//         return balance;
+//     }
+    
+//     }
+
+// }
+
+// const customer = createBankAccount();
+// console.log(customer.withdraw(200));
