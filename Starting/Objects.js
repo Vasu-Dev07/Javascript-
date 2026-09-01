@@ -91,22 +91,22 @@
 // console.log(userName,userAge);
 // console.log(first,second);
 
-const user = {
-   name: "Vasu",
-   age: 20,
-   emailId: "vasu@gmail.com",
-   amount: 3400,
-   greeting: function(){
-    console.log(`Hello There WassUppp ${this.name}`);
-   }
-}
-user.greeting();
+// const user = {
+//    name: "Vasu",
+//    age: 20,
+//    emailId: "vasu@gmail.com",
+//    amount: 3400,
+//    greeting: function(){
+//     console.log(`Hello There WassUppp ${this.name}`);
+//    }
+// }
+// user.greeting();
 
 // const user2 = {
 //     name:"Mohan",
 //     account:201,
 //      greeting: function(){
-//     console.log(`Strike is coming on 18 october ${this.name}`);
+//     console.log(`Hello there my Brother ${this.name}`);
 //     return 20;
 //    }
 // }
@@ -120,9 +120,9 @@ user.greeting();
 // nested object
 
 // const user = {
-//    name: "Rohit",
+//    name: "Vasu",
 //    age: 20,
-//    emailId: "negi@gmail.com",
+//    emailId: "vasu@gmail.com",
 //    amount: 3400,
 //    address: {
 //     city:"kotdwar",

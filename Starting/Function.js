@@ -78,3 +78,25 @@
 // console.log(arr);
 
 // const addNumber = (num1,num2) => num1+num2;
+
+// if we have single parameter, no need of this ()
+// const squareNumber = num => num*num;
+
+
+
+// // console.log(addNumber(3,4));
+// console.log(squareNumber(6));
+
+
+// const greeting = ()=> {
+//     return {
+//         name:"Rohit",
+//         age:20,
+//     }
+// }
+
+
+// const greeting = ()=> ({ name:"Rohit",age:20});
+
+
+// console.log(greeting());
