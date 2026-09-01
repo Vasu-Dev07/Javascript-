@@ -100,3 +100,14 @@
 
 
 // console.log(greeting());
+
+// IIFE
+
+// (function greeting(){
+//     console.log("Helloji");
+// })();
+
+// (()=>{
+//     console.log("hi");
+// })();
+
