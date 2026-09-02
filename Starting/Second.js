@@ -26,3 +26,21 @@ const element = document.getElementById("first");
 // child1.addEventListener('click',()=>{
 //     child1.textContent = "I am clicked";
 // })
+
+const parent = document.getElementById("parent");
+// console.log(parent.children);
+
+function handleClick(e){
+   e.target.textContent = "I am Clicked";
+   parent.removeEventListener('click',handleClick);
+}
+
+parent.addEventListener('click',handleClick)
+
+
+// for(let child of parent.children){
+//     console.log(child);
+//     child.addEventListener('click',()=>{
+//         child.textContent = "I am Clicked";
+//     })
+// }
