@@ -113,3 +113,28 @@ const products = [
 
 // console.log(totalPrice);
 
+// Data structure: set
+
+// const arr = [10,20,30,10,25,15,10,20];
+// // console.log(arr);
+
+// const s1 = new Set(arr);
+// s1.add(11);
+
+
+// console.log(s1.has(23));
+// s1.delete(10);
+// s1.clear();
+// console.log(s1);
+
+
+// const email = ["ro@gm","ra@gm","mo@gm","ro@gm"];
+
+// // const uniqueEmail = [...new Set(email)];
+// // console.log(uniqueEmail);
+
+// const s1 = new Set(email);
+
+// for(let num of s1){
+//     console.log(num);
+// }
