@@ -47,3 +47,17 @@ console.log(newElement2.getAttribute("hello"));
 // unorderElement.prepend(list3);
 
 // unorderElement.children[1].after(list4);
+
+const arr = ["Milk", "Halwa", "Paneer","tofu","Tea"];
+
+const unorderElement = document.getElementById("listing");
+const fragment = document.createDocumentFragment();
+// array
+
+for(let food of arr){
+    const list = document.createElement("li");
+    list.textContent = food;
+    fragment.append(list);
+}
+
+unorderElement.append(fragment);
