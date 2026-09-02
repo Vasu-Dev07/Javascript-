@@ -44,3 +44,25 @@ parent.addEventListener('click',handleClick)
 //         child.textContent = "I am Clicked";
 //     })
 // }
+
+// const grandparent = document.getElementById("grandparent");
+// grandparent.addEventListener('click',(e)=>{
+//     console.log(e.target);
+//     // console.log("GrandParent is clicked");
+// })
+
+// const parent = document.getElementById("parent");
+// parent.addEventListener('click',(e)=>{
+//     // console.log(e);
+//     // console.log("Parent is clicked");
+// })
+
+// const child = document.getElementById("child");
+// child.addEventListener('click',(e)=>{
+//     // console.log(e);
+//     // e.stopPropagation();
+//     // console.log("child is clicked");
+// })
+
+// capture phase on hai: Top se down aaoge: Us time pe event ko trigger kar diya jaayega
+// capture phase off hai: Event hai usko down to up(Bubbling phase bolte hai, tab trigger kiya jaayega)
