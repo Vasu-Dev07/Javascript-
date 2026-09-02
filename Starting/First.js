@@ -1,3 +1,5 @@
+// before after 
+
 const newElement = document.createElement("h2");
 newElement.textContent = "Ohh I can add h2 through js..";
 newElement.id = "second";
@@ -25,3 +27,23 @@ newElement2.setAttribute("hello","ji");
 element.before(newElement2);
 
 console.log(newElement2.getAttribute("hello"));
+
+// Didnt get what attribute does..
+
+// const list = document.createElement("li");
+// list.textContent = "Milk"
+// const list2 = document.createElement("li");
+// list2.textContent = "Cake"
+
+// const list3 = document.createElement("li");
+// list3.textContent = "Halwa"
+
+// const list4 = document.createElement("li");
+// list4.textContent = "Paneer"
+
+// const unorderElement = document.getElementById("listing");
+
+// unorderElement.append(list, list2);
+// unorderElement.prepend(list3);
+
+// unorderElement.children[1].after(list4);
