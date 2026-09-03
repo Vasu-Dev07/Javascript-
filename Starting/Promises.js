@@ -30,8 +30,8 @@
 // const p1 = new Promise((resolve,reject)=>{
 
 //     resolve({
-//         name:"Rohit",
-//         age:30,
+//         name:"Vasu",
+//         age:20,
 //     });
 // })
 
@@ -40,3 +40,39 @@
 // }).catch((error)=>{
 //     console.log(error);
 // })
+
+
+// fetch("https://api.github.com/users")
+// .then((response)=>{
+    
+//     console.log(response);
+//     if(!response.ok){
+//         throw new Error("Data is not persent in server");
+//     }
+//     return response.json();
+// })
+// .then((data)=>{
+//     // console.log(data);
+
+//     const parent = document.getElementById("first");
+
+//     for(let i=0;i<data.length;i++){
+//     const image = document.createElement('img');
+//     image.src = data[i].avatar_url;
+//     image.style.height = "40px";
+//     image.style.width = "40px";
+
+//     parent.append(image);
+//     }
+// })
+// .catch((error)=>{
+//     const parent = document.getElementById("first");
+//     parent.textContent = error.message;
+// })
+
+
+
+
+
+
+// console.log("Hello World End");
