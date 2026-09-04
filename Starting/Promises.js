@@ -76,3 +76,31 @@
 
 
 // console.log("Hello World End");
+
+
+// const j1 = {
+//     name: "Rohit",
+//     age: 30,
+//     address: "dwarka",
+// }
+
+
+// // convert to json
+
+// const jsonFormat = JSON.stringify(j1);
+
+// console.log(jsonFormat);
+
+
+// const jsonFormat = `{
+//     "name":"Rohit",
+//     "age": 30,
+//     "address": "dwarka"
+// }`;
+
+
+// // java script object
+
+// const JsObject = JSON.parse(jsonFormat);
+
+// console.log(JsObject);
