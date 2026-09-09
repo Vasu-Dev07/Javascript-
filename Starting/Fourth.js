@@ -13,4 +13,18 @@
 // response.then((data)=>console.log(data))
 // .catch((error)=>{
 //     console.log("Error:", error);
-// // })
+// })
+
+
+// fetch("https://api.github.com/users")
+// .then((response)=>response.json())
+// .then((data)=>console.log(data));
+
+// async function github() {
+
+
+//     try {
+//     const response = await fetch("https://api.github.com/users");
+//     if(!response.ok){
+//         throw new Error("Data is not persent");
+//     }
